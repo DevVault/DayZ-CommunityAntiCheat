@@ -1,0 +1,11 @@
+{
+    "Departments": [{
+        "DepartmentName": "Community AntiCheat",
+        "Sections": [{
+            "SectionName": "Developers",
+            "SectionLines": [
+                "Jacob_Mango"
+            ]
+        }]
+    }]
+}
