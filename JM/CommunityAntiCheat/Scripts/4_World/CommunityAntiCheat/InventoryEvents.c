@@ -14,7 +14,7 @@ modded class DeferredSwapEntities
 {
     override void ClearInventoryReservation(HumanInventory inventory)
     {
-        if (!m_dst || !m_item1) return;
+        if (!m_dst1 || !m_item1) return;
         if (!m_dst2 || !m_item2) return;
 
         if (!inventory) return;
@@ -27,7 +27,7 @@ modded class DeferredForceSwapEntities
 {
     override void ClearInventoryReservation(HumanInventory inventory)
     {
-        if (!m_dst || !m_item1) return;
+        if (!m_dst1 || !m_item1) return;
         if (!m_dst2 || !m_item2) return;
 
         if (!inventory) return;

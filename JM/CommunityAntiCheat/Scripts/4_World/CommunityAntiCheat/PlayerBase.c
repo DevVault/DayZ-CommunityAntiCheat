@@ -69,7 +69,7 @@ modded class PlayerBase
 		{
 		}
 
-		super.OnInputUserDataProcess(userDataType, ctx);
+		return super.OnInputUserDataProcess(userDataType, ctx);
 	}
 
 	override void OnGameplayDataHandlerSync()

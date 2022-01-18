@@ -16,14 +16,14 @@ class CfgPatches
 
 class CfgMods
 {
-	class JM_CommunityFramework
+	class JM_CommunityAntiCheat
 	{
 		dir = "JM/CommunityAntiCheat";
 		picture = "";
 		action = "";
 		hideName = 0;
 		hidePicture = 1;
-		name = "Community Framework";
+		name = "Community Anti Cheat";
 		credits = "Jacob_Mango, Arkensor";
 		creditsJson = "JM/CommunityAntiCheat/Scripts/Data/Credits.json";
 		version = "0.0.0";
@@ -57,7 +57,7 @@ class CfgMods
 			};
 			class gameScriptModule
 			{
-				value = "CommunityAntiCheat_CreateGame";
+				value = "";
 				files[] =
 				{
 					"JM/CommunityAntiCheat/Defines",

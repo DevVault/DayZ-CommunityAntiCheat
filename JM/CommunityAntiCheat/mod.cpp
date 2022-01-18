@@ -1,11 +1,11 @@
-name = "Community Framework";
+name = "Community Anti Cheat";
 picture = "JM/CommunityAntiCheat/GUI/textures/icon.edds";
 logo = "JM/CommunityAntiCheat/GUI//textures/icon.edds";
 logoSmall = "JM/CommunityAntiCheat/GUI//textures/icon.edds";
 logoOver = "JM/CommunityAntiCheat/GUI//textures/icon.edds";
-tooltip = "Community Framework";
-overview = "This is a Community Framework for DayZ SA. One notable feature is it aims to resolve the issue of conflicting RPC type ID's and mods.";
-action = "https://github.com/Jacob-Mango/DayZ-Community-Framework";
-author = "CommunityAntiCheat Mod Team";
+tooltip = "Community Anti Cheat";
+overview = "A simple and rudimentry anticheat system for DayZ. Prevents known exploits before BI fixes them.";
+action = "https://github.com/Jacob-Mango/DayZ-CommunityAntiCheat";
+author = "Jacob_Mango";
 authorID = "76561198103677868";
-version = "0.8.100368";
+version = "0.1";
