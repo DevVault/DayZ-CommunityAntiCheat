@@ -40,8 +40,8 @@ modded class PlayerBase
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_INJURY) return;
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_PLAYER_STATES) return;
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_QUICKBAR_SET_SHORTCUT) return;
-			if (pJunctureID == DayZPlayerSyncJunctures.SJ_INVENTORY) return;
-			if (pJunctureID == DayZPlayerSyncJunctures.SJ_INVENTORY_REPAIR) return;
+			//if (pJunctureID == DayZPlayerSyncJunctures.SJ_INVENTORY) return;
+			//if (pJunctureID == DayZPlayerSyncJunctures.SJ_INVENTORY_REPAIR) return;
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_ACTION_INTERRUPT) return;
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_ACTION_ACK_ACCEPT) return;
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_ACTION_ACK_REJECT) return;
@@ -74,8 +74,7 @@ modded class PlayerBase
 
 	override void OnGameplayDataHandlerSync()
 	{
-		if (GetGame().IsDedicatedServer())
-			return;
+		if (GetGame().IsDedicatedServer()) return;
 
 		super.OnGameplayDataHandlerSync();
 	}
