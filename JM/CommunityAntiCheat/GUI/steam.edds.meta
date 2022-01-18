@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{43254B7B2A384DCE}JM/CommunityAntiCheat/GUI/steam.edds"
+ Author "desktop-o6qatll"
+ ChangeDate 1847897138
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "steam.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

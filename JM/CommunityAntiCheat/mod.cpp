@@ -1,8 +1,8 @@
 name = "Community Anti Cheat";
-picture = "JM/CommunityAntiCheat/GUI/textures/icon.edds";
-logo = "JM/CommunityAntiCheat/GUI//textures/icon.edds";
-logoSmall = "JM/CommunityAntiCheat/GUI//textures/icon.edds";
-logoOver = "JM/CommunityAntiCheat/GUI//textures/icon.edds";
+picture = "JM/CommunityAntiCheat/GUI/textures/steam.edds";
+logo = "JM/CommunityAntiCheat/GUI//textures/logo.edds";
+logoSmall = "JM/CommunityAntiCheat/GUI//textures/logo.edds";
+logoOver = "JM/CommunityAntiCheat/GUI//textures/logo.edds";
 tooltip = "Community Anti Cheat";
 overview = "A simple and rudimentry anticheat system for DayZ. Prevents known exploits before BI fixes them.";
 action = "https://github.com/Jacob-Mango/DayZ-CommunityAntiCheat";
