@@ -35,6 +35,7 @@ modded class PlayerBase
 
 	override void OnSyncJuncture(int pJunctureID, ParamsReadContext pCtx)
 	{
+		/*
 		if (GetGame().IsDedicatedServer())
 		{
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_INJURY) return;
@@ -59,7 +60,7 @@ modded class PlayerBase
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_STAMINA) return;
 			if (pJunctureID == DayZPlayerSyncJunctures.SJ_STAMINA_MISC) return;
 		}
-
+		*/
 		super.OnSyncJuncture(pJunctureID, pCtx);
 	}
 
@@ -74,8 +75,7 @@ modded class PlayerBase
 
 	override void OnGameplayDataHandlerSync()
 	{
-		if (GetGame().IsDedicatedServer())
-			return;
+		if (GetGame().IsDedicatedServer()) return;
 
 		super.OnGameplayDataHandlerSync();
 	}
